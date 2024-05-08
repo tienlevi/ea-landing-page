@@ -51,7 +51,7 @@ function Sidebar({ active, onToggle }: Props) {
     <>
       <div
         className={`absolute ${
-          active ? "left-0" : "left-[-50%]"
+          active ? "left-0" : "left-[-100%]"
         }  top-0 bg-black w-[380px] h-screen duration-500 z-20`}
       >
         <div className="flex items-center justify-between bg-[#161616] py-[10px] w-full">

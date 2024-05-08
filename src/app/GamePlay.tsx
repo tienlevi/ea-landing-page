@@ -51,7 +51,10 @@ function GamePlay() {
   });
   return (
     <div className="bg-[#161616]">
-      <div ref={element} className="flex py-[42px] px-[192px] max-lg:flex-col">
+      <div
+        ref={element}
+        className="flex py-[42px] px-[192px] max-lg:flex-col max-lg:px-[40px]"
+      >
         <div
           className={`w-1/3 px-2 max-lg:w-full ${
             visible

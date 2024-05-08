@@ -8,10 +8,14 @@ import Button from "@/components/Button";
 function WelcomeClub() {
   return (
     <div className="relative">
-      <div className="relative w-full">
-        <Image src={TransparentImg} alt="" className="relative w-full" />
-        <div className="w-full absolute top-[50%] translate-y-[-50%] flex max-lg:flex-col items-center max-lg:justify-center justify-between">
-          <div className="w-1/2 px-10 left-0 text-center max-lg:w-full">
+      <div className="relative w-full max-lg:h-[1000px]">
+        <Image
+          src={TransparentImg}
+          alt=""
+          className="relative w-full max-lg:h-[1000px]"
+        />
+        <div className="w-full absolute top-[50%] translate-y-[-50%] flex max-lg:flex-col items-center max-lg:top-0 max-lg:translate-y-0 max-lg:justify-center justify-between">
+          <div className="w-1/2 px-10 left-0 text-center max-lg:w-full max-lg:translate-y-[150%]">
             <Image src={Logo} alt="" className="w-[200px] h-fit mx-auto" />
             <h1 className="text-white text-[44px] font-bold my-[15px]">
               WELCOME TO THE CLUB

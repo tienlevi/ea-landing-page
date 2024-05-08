@@ -12,9 +12,9 @@ function Ratings() {
     <div className="relative">
       <Banner src={BannerImg} />
       <Section className="">
-        <div className="w-[500px] flex flex-col absolute top-[50%] translate-y-[-50%] left-[15%]">
-          <Image src={FCLogo} alt="" className="mx-auto" />
-          <p className="text-[18px] font-semibold text-[#FFF] text-center w-[100%] ">
+        <div className="w-[500px] flex flex-col absolute top-[50%] translate-y-[-50%] left-[15%] max-md:left-[50%] max-md:translate-x-[-50%]">
+          <Image src={FCLogo} alt="" className="mx-auto max-md:w-[250px]" />
+          <p className="text-[18px] font-semibold text-[#FFF] text-center w-[100%] max-md:mt-3">
             The new EA SPORTS FC 24 Ratings have arrived along with the new
             PlayStyles for players across The World's Game. Check out the
             Ratings Database to see how your favourites rank.

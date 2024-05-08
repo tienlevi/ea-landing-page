@@ -12,10 +12,10 @@ function Unrivalled() {
         className="relative w-full h-[430px] object-cover"
       />
       <div className="mb-[15px] absolute w-[50%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h1 className="text-center text-white text-[44px] font-bold">
+        <h1 className="text-center text-white text-[44px] font-bold max-lg:text-[33px]">
           UNRIVALLED AUTHENTICITY
         </h1>
-        <p className="mt-[15px] text-center text-white text-[24px]">
+        <p className="mt-[15px] text-center text-white text-[24px] max-lg:text-[21px]">
           EA SPORTS FC™ 24 is home to 19,000+ fully licensed players, 700+
           teams, 100+ stadiums and 30+ leagues across world football.
         </p>

@@ -12,7 +12,7 @@ function Footer() {
   //
   return (
     <>
-      <div className="bg-[#252525] px-[168px] py-[18px]">
+      <div className="bg-[#252525] px-[168px] py-[18px] max-lg:px-[40px]">
         <Section className="">
           <div className="flex justify-between w-full pb-[47px] border-b-[1px] border-[#a3a3a3] max-lg:flex-col">
             <div className="pb-[50px]">

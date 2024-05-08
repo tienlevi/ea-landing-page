@@ -12,9 +12,13 @@ function TeamOfTheYear() {
     <div className="relative mt-[50px]">
       <Banner src={BannerImg} />
       <Section className="">
-        <div className="w-[500px] flex flex-col absolute top-[50%] translate-y-[-50%] left-[15%]">
-          <Image src={TeamOfTheYearLogo} alt="" />
-          <p className="text-[18px] font-semibold text-[#FFF] text-center w-[100%] ">
+        <div className="w-[500px] flex flex-col absolute top-[50%] translate-y-[-50%] max-md:left-[50%] max-md:translate-x-[-50%]">
+          <Image
+            src={TeamOfTheYearLogo}
+            alt=""
+            className="mx-auto max-md:w-[250px]"
+          />
+          <p className="text-[18px] font-semibold text-[#FFF] text-center w-[100%] max-md:mt-4">
             Nominated for world-class performances. Backed by millions around
             the world. Meet the Men's and Women's Team of the Year XIs.
           </p>

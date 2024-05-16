@@ -6,11 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    fontFamily: {
-      "ea-font": ["EA Font v1.5 by Ghettoshark", "sans-serif"],
-    },
-  },
+  theme: {},
   plugins: [],
 };
 export default config;

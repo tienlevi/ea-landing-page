@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+
 import "./globals.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta charSet="UTF-8" key="charset" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1"
+          key="viewport"
+        />
+        <link
+          rel="icon"
+          href="/favicon.ico"
+          key="favicon"
+          type="image/x-icon"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.cdnfonts.com/css/ea-font" rel="stylesheet" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );

@@ -91,13 +91,13 @@ function Header() {
           <Image src={logo} alt="" className="mx-8 max-lg:mx-4" />
           <ul className="relative flex items-center text-white max-lg:hidden">
             <li className="relative flex mx-4 py-4 font-medium cursor-pointer group">
-              <p className="group-hover:text-[#07F468]">About</p>
+              <p className="group-hover:text-green">About</p>
               <SlashIcon
-                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SlashIcon
-                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SubMenu
@@ -106,13 +106,13 @@ function Header() {
               />
             </li>
             <li className="relative flex mx-4 py-4 font-medium cursor-pointer group">
-              <p className="group-hover:text-[#07F468]">Features </p>
+              <p className="group-hover:text-green">Features </p>
               <SlashIcon
-                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SlashIcon
-                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SubMenu
@@ -121,13 +121,13 @@ function Header() {
               />
             </li>
             <li className="relative flex mx-4 py-4 font-medium cursor-pointer group">
-              <p className="group-hover:text-[#07F468]">Ultimate Team</p>
+              <p className="group-hover:text-green">Ultimate Team</p>
               <SlashIcon
-                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SlashIcon
-                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SubMenu
@@ -136,16 +136,16 @@ function Header() {
               />
             </li>
             <li className="relative flex mx-4 py-4 font-medium cursor-pointer group">
-              <p className="group-hover:text-[#07F468]">FC 24 Ratings</p>{" "}
+              <p className="group-hover:text-green">FC 24 Ratings</p>{" "}
             </li>
             <li className="relative flex mx-4 py-4 font-medium cursor-pointer group">
-              <p className="group-hover:text-[#07F468]">News & Community</p>
+              <p className="group-hover:text-green">News & Community</p>
               <SlashIcon
-                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SlashIcon
-                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                 style={{ transition: "0.3s" }}
               />
               <SubMenu
@@ -155,7 +155,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <button className="flex items-center justify-center w-[180px] h-[44px] text-[18px] font-semibold bg-[#07F468] group rounded-[35px]">
+        <button className="flex items-center justify-center w-[180px] h-[44px] text-[18px] font-semibold bg-green group rounded-[35px]">
           <div className="ml-4">
             <p>Buy Now</p>
           </div>

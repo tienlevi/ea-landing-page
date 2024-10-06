@@ -71,21 +71,21 @@ function Sidebar({ active, onToggle }: Props) {
             <div
               className={`flex justify-between py-[13px] border-b ${
                 state.items[0].active
-                  ? "border-[#07F468]"
+                  ? "border-green"
                   : "border-[rgb(163,163,163)]"
               }`}
               onClick={() =>
                 handleToggle(state.items[0].id, !state.items[0].active)
               }
             >
-              <p className="group-hover:text-[#07F468]">About</p>
+              <p className="group-hover:text-green">About</p>
               <div>
                 <SlashIcon
-                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
                 <SlashIcon
-                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
               </div>
@@ -99,11 +99,9 @@ function Sidebar({ active, onToggle }: Props) {
               <div className="w-full leading-6">
                 {aboutSubMenu.map((item, index: number) => (
                   <div
-                    className={`py-[14px] pl-[13px] text-[#a3a3a3] border-b ${
-                      index === 5
-                        ? "border-[#07F468]"
-                        : "border-[rgb(163,163,163)]"
-                    } hover:text-[#07F468]`}
+                    className={`py-[14px] pl-[13px] text-gray border-b ${
+                      index === 5 ? "border-green" : "border-[rgb(163,163,163)]"
+                    } hover:text-green`}
                     key={index}
                   >
                     {item.name}
@@ -116,21 +114,21 @@ function Sidebar({ active, onToggle }: Props) {
             <div
               className={`flex justify-between py-[13px] border-b ${
                 state.items[1].active
-                  ? "border-[#07F468]"
+                  ? "border-green"
                   : "border-[rgb(163,163,163)]"
               }`}
               onClick={() =>
                 handleToggle(state.items[1].id, !state.items[1].active)
               }
             >
-              <p className="group-hover:text-[#07F468]">Features</p>
+              <p className="group-hover:text-green">Features</p>
               <div>
                 <SlashIcon
-                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
                 <SlashIcon
-                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
               </div>
@@ -144,11 +142,9 @@ function Sidebar({ active, onToggle }: Props) {
               <div className="w-full leading-6">
                 {featureSubMenu.map((item, index: number) => (
                   <div
-                    className={`py-[14px] pl-[13px] text-[#a3a3a3] border-b ${
-                      index === 1
-                        ? "border-[#07F468]"
-                        : "border-[rgb(163,163,163)]"
-                    } hover:text-[#07F468]`}
+                    className={`py-[14px] pl-[13px] text-gray border-b ${
+                      index === 1 ? "border-green" : "border-[rgb(163,163,163)]"
+                    } hover:text-green`}
                     key={index}
                   >
                     {item.name}
@@ -161,21 +157,21 @@ function Sidebar({ active, onToggle }: Props) {
             <div
               className={`flex justify-between py-[13px] border-b ${
                 state.items[2].active
-                  ? "border-[#07F468]"
+                  ? "border-green"
                   : "border-[rgb(163,163,163)]"
               }`}
               onClick={() =>
                 handleToggle(state.items[2].id, !state.items[2].active)
               }
             >
-              <p className="group-hover:text-[#07F468]">Ultimate Team</p>
+              <p className="group-hover:text-green">Ultimate Team</p>
               <div>
                 <SlashIcon
-                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
                 <SlashIcon
-                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
               </div>
@@ -189,11 +185,11 @@ function Sidebar({ active, onToggle }: Props) {
               <div className="w-full leading-6">
                 {ultimateTeamSubMenu.map((item, index: number) => (
                   <div
-                    className={`py-[14px] pl-[13px] text-[#a3a3a3] border-b ${
+                    className={`py-[14px] pl-[13px] text-gray border-b ${
                       index === 13
-                        ? "border-[#07F468]"
+                        ? "border-green"
                         : "border-[rgb(163,163,163)]"
-                    } hover:text-[#07F468]`}
+                    } hover:text-green`}
                     key={index}
                   >
                     {item.name}
@@ -207,14 +203,14 @@ function Sidebar({ active, onToggle }: Props) {
               className={`flex justify-between py-[13px] border-b border-[rgb(163,163,163)]
               `}
             >
-              <p className="group-hover:text-[#07F468]">FC 24 Ratings</p>
+              <p className="group-hover:text-green">FC 24 Ratings</p>
               <div>
                 <SlashIcon
-                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
                 <SlashIcon
-                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
               </div>
@@ -224,21 +220,21 @@ function Sidebar({ active, onToggle }: Props) {
             <div
               className={`flex justify-between py-[13px] border-b ${
                 state.items[3].active
-                  ? "border-[#07F468]"
+                  ? "border-green"
                   : "border-[rgb(163,163,163)]"
               }`}
               onClick={() =>
                 handleToggle(state.items[3].id, !state.items[3].active)
               }
             >
-              <p className="group-hover:text-[#07F468]">News & Community</p>
+              <p className="group-hover:text-green">News & Community</p>
               <div>
                 <SlashIcon
-                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-[#07F468]"
+                  className="rotate-[45deg] group-hover:rotate-[-50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
                 <SlashIcon
-                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-[#07F468]"
+                  className="right-[10px] rotate-[-45deg] group-hover:rotate-[50deg] group-hover:text-green"
                   style={{ transition: "0.3s" }}
                 />
               </div>
@@ -252,11 +248,9 @@ function Sidebar({ active, onToggle }: Props) {
               <div className="w-full leading-6">
                 {NewCommunitySubMenu.map((item, index: number) => (
                   <div
-                    className={`py-[14px] pl-[13px] text-[#a3a3a3] border-b ${
-                      index === 4
-                        ? "border-[#07F468]"
-                        : "border-[rgb(163,163,163)]"
-                    } hover:text-[#07F468]`}
+                    className={`py-[14px] pl-[13px] text-gray border-b ${
+                      index === 4 ? "border-green" : "border-[rgb(163,163,163)]"
+                    } hover:text-green`}
                     key={index}
                   >
                     {item.name}

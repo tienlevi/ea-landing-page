@@ -27,7 +27,7 @@ function WelcomeClub() {
             </p>
             <Button
               className="text-black px-6 py-4 max-lg:hidden"
-              before="before:bg-[#07F468]"
+              before="before:bg-green"
             >
               Play Now
             </Button>

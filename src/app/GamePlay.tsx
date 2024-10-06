@@ -156,7 +156,7 @@ function GamePlay() {
                 <h1 className="text-[24px] font-bold uppercase">{item.name}</h1>
                 <Button
                   className="mt-4 py-4 px-6 text-[18px] font-semibold"
-                  before="before:bg-[#07F468] before:text-black"
+                  before="before:bg-green before:text-black"
                 >
                   <p className="">{item.button}</p>
                 </Button>
@@ -175,7 +175,7 @@ function GamePlay() {
                 <h1 className="text-[24px] font-bold uppercase">{item.name}</h1>
                 <Button
                   className="mt-4 py-4 px-6 text-[18px] font-semibold"
-                  before="before:bg-[#07F468] before:text-black"
+                  before="before:bg-green before:text-black"
                 >
                   <p className="">{item.button}</p>
                 </Button>

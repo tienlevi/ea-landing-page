@@ -14,16 +14,16 @@ function Footer() {
     <>
       <div className="bg-[#252525] px-[168px] py-[18px] max-lg:px-[40px]">
         <Section className="">
-          <div className="flex justify-between w-full pb-[47px] border-b-[1px] border-[#a3a3a3] max-lg:flex-col">
+          <div className="flex justify-between w-full pb-[47px] border-b-[1px] border-gray max-lg:flex-col">
             <div className="pb-[50px]">
               <h1 className="font-mono text-[18px] text-white mb-[5px]">
                 EA SPORTS FC™ 24
               </h1>
               <div className="flex">
-                <p className="mt-[5px] mr-[48px] text-[#a3a3a3]">Home</p>
-                <p className="mt-[5px] mr-[48px] text-[#a3a3a3]">News</p>
-                <p className="mt-[5px] mr-[48px] text-[#a3a3a3]">Gameplay</p>
-                <p className="mt-[5px] mr-[48px] text-[#a3a3a3]">Buy Now</p>
+                <p className="mt-[5px] mr-[48px] text-gray">Home</p>
+                <p className="mt-[5px] mr-[48px] text-gray">News</p>
+                <p className="mt-[5px] mr-[48px] text-gray">Gameplay</p>
+                <p className="mt-[5px] mr-[48px] text-gray">Buy Now</p>
               </div>
             </div>
             <div className="">
@@ -93,7 +93,7 @@ function Footer() {
             <Image src={LogoFooter} alt="" width={90} height={90} />
             <Image src={RatingImage} alt="" className="max-lg:mt-6" />
           </div>
-          <p className="text-[18px] text-[#a3a3a3] py-3 w-[70%]">
+          <p className="text-[18px] text-gray py-3 w-[70%]">
             † Conditions & restrictions apply. See
             https://www.ea.com/games/ea-sports-fc/fc-24/game-offer-and-disclaimers
             for details.
